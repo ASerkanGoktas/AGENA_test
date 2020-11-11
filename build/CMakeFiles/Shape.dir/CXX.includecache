@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/shape/shape.hpp
+
+../include/shape/sphere.hpp
+shape/shape.hpp
+-
+
+../include/shape/triangle.hpp
+shape/shape.hpp
+-
+
+/Users/aserkangoktas/Desktop/cmake-learnin/AGENA/src/sphere.cpp
+shape/sphere.hpp
+-
+math.h
+-
+
+/Users/aserkangoktas/Desktop/cmake-learnin/AGENA/src/triangle.cpp
+shape/triangle.hpp
+-
+

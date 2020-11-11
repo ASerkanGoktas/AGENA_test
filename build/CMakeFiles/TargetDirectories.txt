@@ -1,0 +1,3 @@
+/Users/aserkangoktas/Desktop/cmake-learnin/AGENA/build/CMakeFiles/rebuild_cache.dir
+/Users/aserkangoktas/Desktop/cmake-learnin/AGENA/build/CMakeFiles/edit_cache.dir
+/Users/aserkangoktas/Desktop/cmake-learnin/AGENA/build/CMakeFiles/Shape.dir
