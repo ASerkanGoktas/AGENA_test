@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(agena VERSION 1.0.0)
 
+enable_testing()
 
 add_library(
         Shape STATIC
@@ -14,3 +15,5 @@ add_library(
 )
 
 target_include_directories(Shape PUBLIC ${CMAKE_SOURCE_DIR}/include)
+add_subdirectory(googletest)
+add_subdirectory(test)
