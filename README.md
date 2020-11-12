@@ -6,15 +6,15 @@ git clone https://github.com/ASerkanGoktas/AGENA_test.git --recursive
 
 # Build
 
-Run **bash run_build.sh** or **bash run_build.bat** if you use windows.
+Run ```bash run_build.sh``` or **bash run_build.bat** if you use windows.
 
 # Run tests
 
-Run **bash run_tests.sh** or **bash run_build.tests** if you use windows.
+Run ```bash run_tests.sh``` or ```bash run_build.tests``` if you use windows.
 
 # Clean
 
-Run ```**bash clean_build.sh**``` or ```**bash clean_build.tests** if you use windows.
+Run ```bash clean_build.sh``` or ```bash clean_build.tests``` if you use windows.
 
 # Dependencies
 
