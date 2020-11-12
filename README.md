@@ -14,7 +14,7 @@ Run **bash run_tests.sh** or **bash run_build.tests** if you use windows.
 
 # Clean
 
-Run **bash clean_build.sh** or **bash clean_build.tests** if you use windows.
+Run ```**bash clean_build.sh**``` or ```**bash clean_build.tests** if you use windows.
 
 # Dependencies
 
