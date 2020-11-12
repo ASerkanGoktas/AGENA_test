@@ -2,11 +2,11 @@
 
 # Download
 
-git clone https://github.com/ASerkanGoktas/AGENA_test.git --recursive
+```git clone https://github.com/ASerkanGoktas/AGENA_test.git --recursive```
 
 # Build
 
-Run ```bash run_build.sh``` or **bash run_build.bat** if you use windows.
+Run ```bash run_build.sh``` or **bash run_build.bat``` if you use windows.
 
 # Run tests
 
