@@ -2,7 +2,7 @@
 #include <vector>
 
 template <int dim>
-class ShapesSet : public Shape<dim>
+class ShapeSet : public Shape<dim>
 {
 public:
         void add(Shape<dim> &shape)
@@ -11,7 +11,7 @@ public:
         }
         float measure()
         {
-                float result = 0;
+                float result = 0.0f;
                 for (Shape<dim>* shape : m_shapes)
                 {
                         result = result + shape->measure();

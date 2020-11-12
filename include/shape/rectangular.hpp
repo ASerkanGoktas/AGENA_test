@@ -7,12 +7,13 @@ template <int dim>
 class Rectangular : public Shape<dim>
 {
 public:
-        Rectangular(int sizes[])
+        Rectangular(float sizes[])
         {
-                m_sizes = new int[dim];
+                m_sizes = new float[dim];
                 for (int i = 0; i < dim; i++)
                 {
-                        m_sizes[i] = sizes[i];
+                        float t = sizes[i];
+                        m_sizes[i] = t;
                 }
         }
         ~Rectangular()
@@ -21,17 +22,17 @@ public:
         }
         float measure()
         {
-                float result = 1;
+                float result = 1.0;
                 for (int i = 0; i < dim; i++)
-                {
+                {       
                         result = result * m_sizes[i];
                 }
 
                 return result;
         }
 
-private:
-        int *m_sizes;
+protected:
+        float *m_sizes;
 };
 
 #endif
